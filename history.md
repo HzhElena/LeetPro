@@ -13,4 +13,18 @@
            = s[i] == s[j]                        if j = i + 1
 
            = s[i] == s[j] && dp[i + 1][j - 1]    if j > i + 1 
-**[Manacher's Algorithm](http://www.cnblogs.com/grandyang/p/4475985.html)**
+**1. [Manacher's Algorithm](http://www.cnblogs.com/grandyang/p/4475985.html)**
+## 双指针
+* 两个都从头开始移动，一快一慢
+* 一头一尾，向中间移动
+数组或者链表
+*相关资源*
+[The-Two-Pointer-Algorithm](https://tp-iiita.quora.com/The-Two-Pointer-Algorithm)
+
+[浅析经典面试算法题-two pointer的运用](http://chocoluffy.com/2016/12/04/%E6%B5%85%E6%9E%90%E7%BB%8F%E5%85%B8%E9%9D%A2%E8%AF%95%E7%AE%97%E6%B3%95%E9%A2%98-two-pointer%E7%9A%84%E8%BF%90%E7%94%A8/)
+
+[Trapping Rain Water (second high)](https://leetcode.com/problems/trapping-rain-water/description/)
+
+Container With Most Water (头尾两个指针)
+
+largest rectangle in histogram / maximal rectangle (stack)
